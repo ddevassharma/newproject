@@ -3,26 +3,32 @@ body{
     font-family: 'PT Serif', serif!important;
 }
 
-/*----------------Navbar-------*/ 
- 
+/*--------------------------------------------Navbar----------------------------------------*/ 
+
 .logoimg{
-    height: 11vh!important; 
-    border-radius: 30%;
-    padding: 3px;
-    margin: 1px; 
-    background-color: white;
-    
+    height: 12vh!important; 
+    margin-left: 5vh;
+    border-radius: 50%;
+    padding: 4px;
+    margin-bottom: -10px;
+    margin-top: -12px;
+    background-color: lightgray;
+    border: 2px solid black;
+    box-shadow: 1px 1px 10px green;  
 }
 
 .navbar-nav li{
-    padding: 10px;  
+    padding: 10px; 
 }
   
 .nav-link{
-    color: rgb(44, 27, 27)!important;
+    color: black!important;
     font-weight: bold!important;
     font-size: 18px; 
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 5%;
 }
 
 .nav-link:hover{
@@ -33,33 +39,25 @@ body{
     text-shadow: 2px 2px 3px lightgreen;
     border: 1px solid grey;
     letter-spacing: 1px;
-    box-shadow: 1px 1px 5px silver;
+    box-shadow: 1px 1px 10px silver;
     border-radius: 7%;
 }
 
 
-/*-------------Slider------------*/
-.img-fluid{
+/*---------------------------------------------Slider------------------------------------------*/
+
+.carousel-inner img{
     background-size: cover;
     height: 100vh!important;
     width: 100%;
 }
 
-.carousel-caption{
-    top: 30%;
-}
+/*----------------------------------------------About-------------------------------------------*/
 
-.carousel-caption h1{
-    color: black!important;
-    font-size: 60px!important;
-    font-weight: bold;
-    text-shadow: 2px 2px 3px red!important;
-}
-/*-------------About---------*/
 #about{
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #c6cef5;
+    background-color: lightgray;
 }
 
 #about h2{
@@ -76,13 +74,6 @@ body{
     margin-left: 1vh;
 }
 
-#about .btn{
-    margin-top: 20px;
-    margin-bottom: 30px;
-    box-shadow: 1px 1px 10px grey;
-    font-weight: bold;
-}
-
 .content1{
     padding-top: 10px;
     padding-bottom: 5px;
@@ -95,6 +86,13 @@ body{
     color: purple;
     font-weight: bold;
     text-shadow: 1px 1px 2px red;
+}
+
+#about .btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px grey;
+    font-weight: bold;
 }
 
 .skill{
@@ -119,10 +117,10 @@ body{
     border-radius: 16px;
 }
 
-/*---------Our Services-----------*/
+/*------------------------------------------------Our Services--------------------------------------*/
 
 #service{
-    background-image: linear-gradient(rgba(38, 187, 180, 0.8),rgba(0,0,0,0.8)),url(serviceimg.jpg);
+    background-image: url(images/serviceimg.jpg);
     background-size: cover;
     background-position: center;
     color: white!important;
@@ -153,7 +151,8 @@ body{
     height: 60vh!important;
     margin-top: 10vh;
     border: 1px solid grey;
-    opacity: 0.4;
+    box-shadow: 1px 1px 10px white;
+    opacity: 0.6;
     background-size: cover;
 }
 
@@ -183,7 +182,7 @@ body{
     top: -54vh;
     font-size: 32px;
     border: 1px solid white;
-    box-shadow: 2px 2px 3px white;
+    box-shadow: 1px 1px 10px silver;
     padding-left: 8vh;
     padding-right: 8vh;
     background-color: grey;
@@ -225,8 +224,8 @@ body{
  .rows1{
     font-size: 18px!important;
     margin-top: 20px!important;
-    color: #ccc!important;
-    text-shadow: 2px 2px 3px black;
+    color: white!important;
+    text-shadow: 1px 1px 5px black;
 }
 
 .awesome .col-sm-4:hover
@@ -246,10 +245,10 @@ body{
     text-shadow: 1px 1px 2px white;
 }
 
-/*-----------------Contact Us------------------------*/
+/*----------------------------------------------Contact Us-----------------------------------------*/
 
 #maincontact{
-    background-image:linear-gradient(rgba(83, 39, 218, 0.7),rgba(0,0,0,0.7)), url(slider.jpg);
+    background-image: url(images/background2.jpg);
     width: 100%; 
     background-size: cover;
 }
@@ -293,35 +292,39 @@ body{
 
 .mainlast h3{
     padding: 10px;
-    color: silver;
+    color: white;
     font-weight: bold;
-    text-shadow: 1px 1px 3px grey;
+    text-shadow: 1px 1px 10px blue;
 }
 
 .mainlast h4{
     padding: 5px;
-    color: silver;
+    color: white;
+    text-shadow: 1px 1px 10px blue;
 }
 
 .mainlast .name{
     padding: 10px;
     font-size: 18px;
-    color: silver;
+    color: white;
     font-weight: bold;
+    text-shadow: 1px 1px 10px blue;
 }
 
 .mainlast .password{
     padding: 10px;
     font-size: 18px;
-    color: silver;
+    color: white;
     font-weight: bold;
+    text-shadow: 1px 1px 10px blue;
 }
 
 .comment{
     padding: 10px;
     font-size: 18px;
-    color: silver;
+    color: white;
     font-weight: bold; 
+    text-shadow: 1px 1px 10px blue;
 }
 
 .mainlast .send{
@@ -345,24 +348,21 @@ body{
     padding-top: 30px!important;
     padding: 15px;
     font-size: 20px;
-    color: silver;
+    color: white;
+    text-shadow: 1px 1px 10px blue;
     font-weight: bold;
 }
 
-/*--------------------------------Footer------------------*/
+/*-------------------------------------------------------Footer----------------------------------*/
  
 .footer{
-    background-image: linear-gradient(rgba(199, 45, 45, 0.7),rgba(0,0,0,0.7)), url(fit5.jpg);
+    background-image: url(images/fitness1.jpg);
     color: white;
+    background-repeat: no-repeat;
     text-shadow: 1px 1px 3px grey;
     padding: 45px;
     position: relative; 
     font-size: 30px;
-}
-
-.fa-heart-o{
-    color: red;
-    margin: 3px;
 }
 
 .line4{
@@ -374,6 +374,11 @@ body{
     border: 1px solid silver;
 }
 
+.fa-heart-o{
+    color: red;
+    margin: 3px;
+}
+
 .socialicon{
     padding: 15px;
     font-size: 20px;
@@ -383,8 +388,10 @@ body{
  
 .socialicon a{
     margin-left: 15px;
-    padding: 7px; 
-    font-size: 20px;
+    padding: 8px;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    font-size: 25px;
     border-radius: 50%;
     border: 1px solid white;
     display: inline-block;
@@ -394,13 +401,952 @@ body{
 
 .socialicon a:hover{
     margin-left: 15px;
-    padding: 7px; 
-    font-size: 20px;
+    padding: 8px;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    font-size: 25px;
     border-radius: 50%;
     border: 1px solid white;
+    display: inline-block;
     background-color: grey;
     box-shadow: 1px 1px 10px white;
 }
+
+/*---------------------------------Media Queries--------------------------------*/
+/*---------------------------------Media Queries--------------------------------*/
+/*---------------------------------Media Queries--------------------------------*/
+
+
+/*-----------------------------@media (max-width: 575.98px) {}--------------------------------*/
+/*-----------------------------@media (max-width: 575.98px) {}--------------------------------*/
+
+@media (max-width: 575.98px) {
+    .logoimg{
+    height: 7vh!important; 
+    margin-left: 5vh;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: -10px;
+    margin-top: -12px;
+    background-color: lightgray;
+    border: 2px solid black;
+    box-shadow: 1px 1px 10px green;
+    
+}
+}
+
+@media (max-width: 575.98px) {
+    .nav-link{
+    color: black!important;
+    font-weight: bold!important;
+    font-size: 13px; 
+    letter-spacing: 1px;
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 5%;
+}
+}
+
+@media (max-width: 575.98px) {
+    .nav-link:hover{
+    background-color: lightgray;
+    color: black!important;
+    font-weight: bold!important;
+    font-size: 13px;
+    text-shadow: 2px 2px 3px lightgreen;
+    border: 1px solid grey;
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 10px silver;
+    border-radius: 7%;
+}
+}
+
+/*-------------------------------------------About us-------------------------------*/
+
+@media (max-width: 575.98px) {
+    #about h2{
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px red;
+    letter-spacing: 1px;
+}
+}
+
+@media (max-width: 575.98px) {
+    .line1{
+    background-color: grey;
+    border: 1px solid grey;
+    width: 5vh;
+    margin-left: 2vh;
+}
+}
+
+@media (max-width: 575.98px) {
+    .content1{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13px !important;
+}
+}
+
+@media (max-width: 575.98px) {
+    .span1{
+    display: block;
+    font-size: 15px;
+    color: purple;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px red;
+}
+}
+
+@media (max-width: 575.98px) {
+    #about .btn{
+    margin-top: 20px;
+    width: 7vh;
+    height: 4.5vh;
+    font-size: 8px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px grey;
+    font-weight: bold;
+    padding: 5px;
+}
+}
+
+@media (max-width: 575.98px) {
+    .skill{
+    font-size: 15px;
+    font-weight: bold;
+    color: dimgrey;
+    text-shadow: 1px 1px 2px red;
+    text-decoration: underline;
+}
+}
+
+/*------------------------------------------Our Service-----------------------------------*/ 
+
+@media (max-width: 575.98px) {
+    #service h1{
+    text-align: center;
+    color: white!important;
+    text-shadow: 2px 2px 3px red;
+    padding-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-top: -4vh;
+}
+}
+
+@media (max-width: 575.98px) {
+    .line2{
+    background-color: grey;
+    border: 1px solid grey;
+    width: 15vh;
+    margin: auto;
+}
+}
+
+@media (max-width: 575.98px) {
+    .photo{
+    width: 100%;
+    height: 30vh!important;
+    margin-top: 5vh;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 10px white;
+    opacity: 0.6;
+    background-size: cover;
+    border-radius: 25px;
+}
+}
+
+@media (max-width: 575.98px) {
+    .our{
+    position: relative;
+    text-align:center;
+    top: -26vh;
+    font-size: 20px;
+    color: gold;
+    text-shadow: 2px 2px 3px red;
+    letter-spacing: 1px;
+}
+}
+
+@media (max-width: 575.98px) {
+    .we{
+    position: relative;
+    margin: auto;
+    top: -23vh;
+    font-size: 13px;
+    padding-left: 8vh;
+    padding-right: 8vh;
+    text-shadow: 2px 2px 3px grey;
+}
+}
+
+@media (max-width: 575.98px) {
+    .we:hover{
+    position: relative;
+    margin: auto;
+    top: -23vh;
+    font-size: 13px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px silver;
+    padding-left: 8vh;
+    padding-right: 8vh;
+    background-color: grey;
+    text-shadow: 3px 3px 4px silver;
+}
+}
+
+@media (max-width: 575.98px) {
+    .web{
+    margin: auto;
+    letter-spacing: 1px;
+    margin-top: -15vh;
+    font-size: 20px;
+    color: grey!important;
+    text-shadow: 2px 2px 3px red; 
+    border-radius: 5%; 
+    text-align:center;       
+    box-shadow: 2px 2px 3px silver;
+    background-color:beige;
+    background-size: cover;
+}
+}
+
+@media (max-width: 575.98px) {
+    .icon{
+    font-size: 20px;
+    margin: 20px auto;
+    padding-bottom: 5px;
+    height: 50px;
+    width: 55px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+}
+
+@media (max-width: 575.98px) {
+.three1{
+    text-shadow: 2px 2px 3px red;
+    font-size: 20px;
+}
+}
+
+@media (max-width: 575.98px) {
+ .rows1{
+    font-size: 13px!important;
+    margin-top: 20px!important;
+    color: white!important;
+    text-shadow: 1px 1px 5px black;
+}
+}
+
+@media (max-width: 575.98px) {
+.awesome .col-sm-4:hover
+{
+    background: grey!important;
+    cursor: pointer!important;
+    transition: 0.5s!important;
+    color: black;
+    border: 1px solid white;
+    font-weight: bold;
+}
+}
+ 
+@media (max-width: 575.98px) {
+.rows1:hover{
+    color: black!important;
+    border: 1px solid white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px white;
+}
+}
+
+/*----------------------------------------------Contact Us-----------------------------------------*/
+
+@media (max-width: 575.98px) {
+#maincontact{
+    background-image: url(images/background2.jpg);
+    width: 100%; 
+    background-size: cover;
+}
+}
+
+@media (max-width: 575.98px) {
+#maincontact h1{
+    color: white;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px red;
+}
+}
+
+@media (max-width: 575.98px) {
+.line3{
+    background-color: grey;
+    width: 15vh;
+    margin: auto;
+    margin-bottom: 2vh;
+    border: 1px solid grey;
+}
+}
+
+@media (max-width: 575.98px) {
+#maincontact h2{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 3px grey;
+    font-size: 20px;
+}
+}
+
+@media (max-width: 575.98px) {
+    .mainlast{
+    border: 1px solid grey;
+    padding:20px;;
+    box-shadow: 1px 1px 10px silver;
+    position: relative; 
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 10%;
+}
+}
+
+@media (max-width: 575.98px){    
+.mainlast h3{
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px blue;
+    font-size: 20px;
+}
+}
+
+@media (max-width: 575.98px){    
+.mainlast h4{
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 10px blue;
+}
+}
+
+@media (max-width: 575.98px){    
+.mainlast .name{
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px blue;
+}
+}
+
+@media (max-width: 575.98px){    
+.mainlast .password{
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px blue;
+}
+}
+
+@media (max-width: 575.98px){    
+.comment{
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold; 
+    text-shadow: 1px 1px 10px blue;
+}
+}
+
+@media (max-width: 575.98px){   
+.mainlast .send{
+    margin-top: 20px; 
+    margin-left: 45vh;
+    font-size: 10px;
+}
+}
+
+@media (max-width: 575.98px) {
+    .lastfront{
+    margin-top: 2vh;    
+    margin-left: 3vh;
+    border: 1px solid grey;
+    padding: 1vh;
+    box-shadow: 1px 1px 8px silver;
+    position: relative; 
+    background-color: rgba(0,0,0,0.4);
+    height: 250px;
+    letter-spacing: 1px;
+    border-radius: 8%;
+}
+}
+
+@media (max-width: 575.98px){    
+.address{
+    padding-top: 30px!important;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px 10px blue;
+    font-weight: bold;
+}
+}
+
+
+/*-------------------------------------------------------Footer----------------------------------*/
+ 
+@media (max-width: 575.98px){ 
+.footer{
+    background-image: url(images/fitness1.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    text-shadow: 1px 1px 3px grey;
+    padding: 40px;
+    position: relative; 
+    font-size: 20px;
+}
+}
+
+@media (max-width: 575.98px){ 
+.line4{
+    position: relative;
+    background-color: silver;
+    width: 20vh;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid silver;
+}
+}
+
+@media (max-width: 575.98px){ 
+.fa-heart-o{
+    color: red;
+    margin: 3px;
+}
+}
+
+@media (max-width: 575.98px){ 
+.socialicon{
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+}
+ 
+@media (max-width: 575.98px){
+.socialicon a{
+    margin-left: 15px;
+    padding: 4px;
+    height: 6vh;
+    width: 5vh;
+    padding-top: 1vh;
+    font-size: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 1px 1px 10px white;
+}
+}
+
+@media (max-width: 575.98px){
+.socialicon a:hover{
+     margin-left: 15px;
+    padding: 4px;
+    height: 6vh;
+    width: 5vh;
+    padding-top: 1vh;
+    font-size: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: inline-block;
+    background-color: grey;
+    box-shadow: 1px 1px 10px white;
+}
+}
+
+
+/*-------------------------------@media (max-width: 767.98px) {}--------------------------------*/
+/*-------------------------------@media (max-width: 767.98px) {}--------------------------------*/
+
+
+@media (max-width: 767.98px) {
+    .logoimg{
+    height: 10vh!important; 
+    margin-left: 5vh;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: -10px;
+    margin-top: -12px;
+    background-color: lightgray;
+    border: 2px solid black;
+    box-shadow: 1px 1px 10px green;
+    
+}
+}
+
+@media (max-width: 767.98px) {
+    .nav-link{
+    color: black!important;
+    font-weight: bold!important;
+    font-size: 15px; 
+    letter-spacing: 1px;
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 5%;
+}
+}
+
+@media (max-width: 767.98px) {
+    .nav-link:hover{
+    background-color: lightgray;
+    color: black!important;
+    font-weight: bold!important;
+    font-size: 15px;
+    text-shadow: 2px 2px 3px lightgreen;
+    border: 1px solid grey;
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 10px silver;
+    border-radius: 5%;
+}
+}
+
+/*-------------------------------------------About us-------------------------------*/
+
+@media (max-width: 767.98px) {
+    #about h2{
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px red;
+    letter-spacing: 1px;
+}
+}
+
+@media (max-width: 767.98px) {
+    .line1{
+    background-color: grey;
+    border: 1px solid grey;
+    width: 10vh;
+    margin-left: 2vh;
+}
+}
+
+@media (max-width: 767.98px) {
+    .content1{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 15px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+    .span1{
+    display: block;
+    font-size: 18px;
+    color: purple;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px red;
+}
+}
+
+@media (max-width: 767.98px) {
+    #about .btn{
+    margin-top: 20px;
+    width: 8vh;
+    height: 6vh;
+    font-size: 8px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px grey;
+    font-weight: bold;
+    padding: 5px;
+}
+}
+
+@media (max-width: 767.98px) {
+    .skill{
+    font-size: 18px;
+    font-weight: bold;
+    color: dimgrey;
+    text-shadow: 1px 1px 2px red;
+    text-decoration: underline;
+}
+}
+
+/*------------------------------------------Our Service-----------------------------------*/ 
+
+@media (max-width: 767.98px) {
+    #service h1{
+    text-align: center;
+    color: white!important;
+    text-shadow: 2px 2px 3px red;
+    padding-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 35px;
+    margin-top: -4vh;
+}
+}
+
+@media (max-width: 767.98px) {
+    .line2{
+    background-color: grey;
+    border: 1px solid grey;
+    width: 20vh;
+    margin: auto;
+}
+}
+
+@media (max-width: 767.98px) {
+    .photo{
+    width: 100%;
+    height: 35vh!important;
+    margin-top: 5vh;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 10px white;
+    opacity: 0.6;
+    background-size: cover;
+    border-radius: 25px;
+}
+}
+
+@media (max-width: 767.98px) {
+    .our{
+    position: relative;
+    text-align:center;
+    top: -32vh;
+    font-size: 25px;
+    color: gold;
+    text-shadow: 2px 2px 3px red;
+    letter-spacing: 1px;
+}
+}
+
+@media (max-width: 767.98px) {
+    .we{
+    position: relative;
+    margin: auto;
+    top: -30vh;
+    font-size: 16px;
+    padding-left: 8vh;
+    padding-right: 8vh;
+    text-shadow: 2px 2px 3px grey;
+}
+}
+
+@media (max-width: 767.98px) {
+    .we:hover{
+    position: relative;
+    margin: auto;
+    top: -30vh;
+    font-size: 16px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px silver;
+    padding-left: 8vh;
+    padding-right: 8vh;
+    border-radius: 5px;
+    background-color: grey;
+    text-shadow: 3px 3px 4px silver;
+}
+}
+
+@media (max-width: 767.98px) {
+    .web{
+    margin: auto;
+    letter-spacing: 1px;
+    margin-top: -18vh;
+    font-size: 25px;
+    color: grey!important;
+    text-shadow: 2px 2px 3px red; 
+    border-radius: 5%; 
+    text-align:center;       
+    box-shadow: 2px 2px 3px silver;
+    background-color:beige;
+    background-size: cover;
+}
+}
+
+@media (max-width: 767.98px) {
+    .icon{
+    font-size: 25px;
+    margin: 20px auto;
+    padding-bottom: 5px;
+    height: 55px;
+    width: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+}
+
+@media (max-width: 767.98px) {
+.three1{
+    text-shadow: 2px 2px 3px red;
+    font-size: 28px;
+}
+}
+
+@media (max-width: 767.98px) {
+ .rows1{
+    font-size: 15px!important;
+    margin-top: 22px!important;
+    color: white!important;
+    text-shadow: 1px 1px 5px black;
+}
+}
+
+@media (max-width: 767.98px) {
+.awesome .col-sm-4:hover
+{
+    background: grey!important;
+    cursor: pointer!important;
+    transition: 0.5s!important;
+    color: black;
+    border: 1px solid white;
+    font-weight: bold;
+}
+}
+ 
+@media (max-width: 767.98px) {
+.rows1:hover{
+    color: black!important;
+    border: 1px solid white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px white;
+    padding: 5px;
+}
+}
+
+/*----------------------------------------------Contact Us-----------------------------------------*/
+
+@media (max-width: 767.98px) {
+#maincontact{
+    background-image: url(images/background2.jpg);
+    width: 100%; 
+    background-size: cover;
+}
+}
+
+@media (max-width: 767.98px) {
+#maincontact h1{
+    color: white;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px red;
+}
+}
+
+@media (max-width: 767.98px) {
+.line3{
+    background-color: grey;
+    width: 15vh;
+    margin: auto;
+    margin-bottom: 2vh;
+    border: 1px solid grey;
+}
+}
+
+@media (max-width: 767.98px) {
+#maincontact h2{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 3px grey;
+    font-size: 23px;
+}
+}
+
+@media (max-width: 767.98px) {
+    .mainlast{
+    border: 1px solid grey;
+    padding:20px;;
+    box-shadow: 1px 1px 10px silver;
+    position: relative; 
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 10%;
+}
+}
+
+@media (max-width: 767.98px) {   
+.mainlast h3{
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px blue;
+    font-size: 25px;
+}
+}
+
+@media (max-width: 767.98px) {   
+.mainlast h4{
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 10px blue;
+}
+}
+
+@media (max-width: 767.98px) {    
+.mainlast .name{
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px blue;
+}
+}
+
+@media (max-width: 767.98px) {   
+.mainlast .password{
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px blue;
+}
+}
+
+@media (max-width: 767.98px) {    
+.comment{
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold; 
+    text-shadow: 1px 1px 10px blue;
+}
+}
+
+@media (max-width: 767.98px) {  
+.mainlast .send{
+    margin-top: 20px; 
+    margin-left: 45vh;
+    font-size: 15px;
+}
+}
+
+@media (max-width: 767.98px) {
+    .lastfront{
+    margin-top: 2vh;    
+    margin-left: 3vh;
+    border: 1px solid grey;
+    padding: 1vh;
+    box-shadow: 1px 1px 8px silver;
+    position: relative; 
+    background-color: rgba(0,0,0,0.4);
+    height: 280px;
+    letter-spacing: 1px;
+    border-radius: 8%;
+}
+}
+
+@media (max-width: 767.98px) {   
+.address{
+    padding-top: 30px!important;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 10px blue;
+    font-weight: bold;
+}
+}
+
+
+/*-------------------------------------------------------Footer----------------------------------*/
+ 
+@media (max-width: 767.98px) { 
+.footer{
+    background-image: url(images/fitness1.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    text-shadow: 1px 1px 3px grey;
+    padding: 40px;
+    position: relative; 
+    font-size: 25px;
+}
+}
+
+@media (max-width: 767.98px) {
+.line4{
+    position: relative;
+    background-color: silver;
+    width: 25vh;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid silver;
+}
+}
+
+@media (max-width: 767.98px) { 
+.fa-heart-o{
+    color: red;
+    margin: 3px;
+}
+}
+
+@media (max-width: 767.98px) {
+.socialicon{
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+}
+ 
+@media (max-width: 767.98px) {
+.socialicon a{
+    margin-left: 15px;
+    padding: 5px;
+    height: 7vh;
+    width: 6vh;
+    padding-top: 1vh;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 1px 1px 10px white;
+}
+}
+
+@media (max-width: 767.98px) {
+.socialicon a:hover{
+     margin-left: 15px;
+    padding: 5px;
+    height: 7vh;
+    width: 6vh;
+    padding-top: 1vh;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: inline-block;
+    background-color: grey;
+    box-shadow: 1px 1px 10px white;
+}
+}
+
+
+/*--------------------------------@media (max-width: 991.98px) {}--------------------------------*/
+/*--------------------------------@media (max-width: 991.98px) {}--------------------------------*/
+
+@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {}
+
+/*--------------------------------@media (max-width: 1199.98px) {}--------------------------------*/
+/*--------------------------------@media (max-width: 1199.98px) {}--------------------------------*/
+
+@media (max-width: 1199.98px) {}
+
 
 
 
